@@ -1,11 +1,13 @@
 ---
 layout: post
-date: 2023-06-18 07:59:00-0400
+date: 2023-09-1 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-:speaker: I give an invited talk about <b>VoxFormer</b> at <a href="https://3dcompat-dataset.org/workshop/#schedule-section">C3DV: 1st Workshop On Compositional 3D Vision@CVPR2023</a>.
+<!-- :speaker: I give an invited talk about <b>VoxFormer</b> at <a href="https://3dcompat-dataset.org/workshop/#schedule-section">C3DV: 1st Workshop On Compositional 3D Vision@CVPR2023</a>. -->
+
+My Ph.D journey begins, supervised by <a href="https://scholar.google.com/citations?user=YeG8ZM0AAAAJ&hl=en">Prof. Chen Feng</a>.
 
 <!-- ---
 layout: post
