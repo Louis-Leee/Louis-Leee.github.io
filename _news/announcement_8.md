@@ -1,11 +1,13 @@
 ---
 layout: post
-date: 2022-06-05 07:59:00-0400
+date: 2022-12-1 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-:speaker: I give an invited talk about <b>collaborative and adversarial 3D perception</b> at <a href="https://sites.google.com/view/3d-dlad-v4-iv2022">3D-DLAD Workshop@IV2022</a>.
+:tada: [TRTrack](https://ieeexplore.ieee.org/abstract/document/10015867) and [ABDNet](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10015799) are accepted by [RA-L 2022](https://www.ieee-ras.org/publications/ra-l). 
+
+
 
 <!-- ---
 layout: post

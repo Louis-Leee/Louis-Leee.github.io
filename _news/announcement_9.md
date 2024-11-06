@@ -1,11 +1,13 @@
 ---
 layout: post
-date: 2022-06-20 07:59:00-0400
+date: 2023-01-1 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-:speaker: I give an invited talk about <b>egocentric 3D target prediction</b> at <a href="https://epic-workshop.org/EPIC_CVPR22/">EPIC Workshop@CVPR2022</a>.
+:tada: [SGDViT](https://arxiv.org/abs/2303.04378) and [ClimRT](https://arxiv.org/abs/2303.04525) are accepted by [ICRA 2023](https://www.icra2023.org/). See you in London!
+
+
 
 <!-- ---
 layout: post
