@@ -110,6 +110,52 @@
 }
 
 
+@inproceedings{zuo2022end,
+  selected={true},
+  abbr={IROS},
+  preview={fdnt.png},
+  title={End-to-end feature decontaminated network for UAV tracking},
+  author={Zuo, Haobo and Fu, Changhong and Li, Sihang and Ye, Junjie and Zheng, Guangze},
+  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems},
+  pages={12130--12137},
+  year={2022},
+  organization={IEEE},
+  code={https://github.com/vision4robotics/FDNT},
+  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9981882},
+  abstract={Object feature pollution is one of the burning issues in vision-based UAV tracking, commonly caused by occlusion, fast motion, and illumination variation. Due to the contaminated information in the polluted object features, most trackers fail to precisely estimate the object location and scale. To address the above disturbing issue, this work proposes a novel end-to-end feature decontaminated network for efficient and effective UAV tracking, i.e., FDNT. FDNT mainly includes two modules: a decontaminated downsampling network and a decontaminated upsampling network. The former reduces the interference information of the feature pollution and enhanced the expression of the object location information with two asymmetric convolution branches. The latter restores the object scale information with the super-resolution technology-based low-to-high encoder, achieving a further decontamination effect. Moreover, a novel pooling distance loss is carefully developed to assist the decontaminated downsampling network in concentrating on the critical regions with the object information. Exhaustive experiments on three well-known benchmarks validate the effectiveness of FDNT, especially on the sequences with feature pollution. In addition, real-world tests show the efficiency of FDNT with 31.4 frames per second.}
+}
+
+@inproceedings{fu2022local,
+  selected={true},
+  abbr={IROS},
+  preview={lpat.png},
+  title={Local perception-aware transformer for aerial tracking},
+  author={Fu, Changhong and Peng, Weiyu and Li, Sihang and Ye, Junjie and Cao, Ziang},
+  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems},
+  pages={12122--12129},
+  year={2022},
+  organization={IEEE},
+  code={https://github.com/vision4robotics/LPAT},
+  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9981248},
+  abstract={Transformer-based visual object tracking has been utilized extensively. However, the Transformer structure is lack of enough inductive bias. In addition, only focusing on encoding the global feature does harm to modeling local details, which restricts the capability of tracking in aerial robots. Specifically, with local-modeling to global-search mechanism, the proposed tracker replaces the global encoder by a novel local-recognition encoder. In the employed encoder, a localrecognition attention and a local element correction network are carefully designed for reducing the global redundant information interference and increasing local inductive bias. Meanwhile, the latter can model local object details precisely under aerial view through detail-inquiry net. The proposed method achieves competitive accuracy and robustness in several authoritative aerial benchmarks with 316 sequences in total. The proposed tracker’s practicability and efficiency have been validated by the real-world tests.}
+}
+
+@inproceedings{fu2022highlightnet,
+  selected={true},
+  abbr={IROS},
+  preview={highlightnet.png},
+  title={HighlightNet: highlighting low-light potential features for real-time UAV tracking},
+  author={Fu, Changhong and Dong, Haolin and Ye, Junjie and Zheng, Guangze and Li, Sihang and Zhao, Jilin},
+  booktitle={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={12146--12153},
+  year={2022},
+  organization={IEEE},
+  code={https://github.com/vision4robotics/HighlightNet},
+  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9981070},
+  abstract={Low-light environments have posed a formidable challenge for robust unmanned aerial vehicle (UAV) tracking even with state-of-the-art (SOTA) trackers since the potential image features are hard to extract under adverse light conditions. Besides, due to the low visibility, accurate online selection of the object also becomes extremely difficult for human monitors to initialize UAV tracking in ground control stations. To solve these problems, this work proposes a novel enhancer, i.e., HighlightNet, to light up potential objects for both human operators and UAV trackers. By employing Transformer, HighlightNet can adjust enhancement parameters according to global features and is thus adaptive for the illumination variation. Pixel-level range mask is introduced to make HighlightNet more focused on the enhancement of the tracking object and regions without light sources. Furthermore, a soft truncation mechanism is built to prevent background noise from being mistaken for crucial features. Evaluations on image enhancement benchmarks demonstrate HighlightNet has advantages in facilitating human perception. Experiments on the public UAVDark135 benchmark show that HightlightNet is more suitable for UAV tracking tasks than other state-of-theart (SOTA) low-light enhancers. In addition, real-world tests on a typical UAV platform verify HightlightNet's practicability and efficiency in nighttime aerial tracking-related applications.}
+}
+
+
 
 @article{su2023collaborative,
   abbr={Preprint},
