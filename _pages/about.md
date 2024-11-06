@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: back.jpeg
+  image: headshot1.jpg
   image_circular: false # crops the image to make it circular
   address: >
     Haleakala, Maui, 2021
