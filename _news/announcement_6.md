@@ -1,11 +1,13 @@
 ---
 layout: post
-date: 2023-04-23 07:59:00-0400
+date: 2023-01-1 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-:tada: [DeepExplorer](https://arxiv.org/abs/2303.09192) is accepted at [RSS 2023](https://roboticsconference.org/). See you in  Daegu!
+:tada: [SGDViT](https://arxiv.org/abs/2303.04378) and [ClimRT](https://arxiv.org/abs/2303.04525) are accepted by [ICRA 2023](https://www.icra2023.org/). See you in London!
+
+
 
 <!-- ---
 layout: post
