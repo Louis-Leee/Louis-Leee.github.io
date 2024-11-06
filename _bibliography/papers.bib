@@ -20,7 +20,7 @@
   preview={sscbench.gif},
   title={SSCBench: A Large-Scale 3D Semantic Scene Completion Benchmark for Autonomous Driving},
   author={Li, Yiming and Li, Sihang and Liu, Xinhao and Gong, Moonjun and Li, Kenan and Chen, Nuo and Wang, Zijun and Li, Zhiheng and Jiang, Tao and Yu, Fisher and others},
-  journal={arXiv preprint arXiv:2306.09001},
+  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems},
   year={2024},
   code={https://github.com/ai4ce/SSCBench},
   pdf={https://arxiv.org/pdf/2306.09001.pdf},
@@ -28,17 +28,17 @@
   abstract={Semantic scene completion (SSC) is crucial for holistic 3D scene understanding by jointly estimating semantics and geometry from sparse observations. However, progress in SSC, particularly in autonomous driving scenarios, is hindered by the scarcity of high-quality datasets. To overcome this challenge, we introduce SSCBench, a comprehensive benchmark that integrates scenes from widely-used automotive datasets (e.g., KITTI-360, nuScenes, and Waymo). SSCBench follows an established setup and format in the community, facilitating the easy exploration of the camera- and LiDAR-based SSC across various real-world scenarios. We present quantitative and qualitative evaluations of state-of-the-art algorithms on SSCBench and commit to continuously incorporating novel automotive datasets and SSC algorithms to drive further advancements in this field.}
 }
 
-@InProceedings{li2024mars,
+@InProceedings{pan2023towards,
   selected={true},  
-  abbr={CVPR},
+  abbr={IROS},
   preview={mars.png},
-  title={Multiagent Multitraversal Multimodal Self-Driving: Open MARS Dataset}, 
-  author={Li, Yiming and Li, Zhiheng and Chen, Nuo and Gong, Moonjun and Lyu, Zonglin and Wang, Zehong and Jiang, Peili and Feng, Chen},
-  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  year={2024},
-  code={https://github.com/ai4ce/MARS},
-  website ={https://ai4ce.github.io/MARS/},
-  abstract={Large-scale datasets have fueled recent advancements in AI-based autonomous vehicle research. However, these datasets are usually collected from a single vehicle's one-time pass of a certain location, lacking multiagent interactions or repeated traversals of the same place. Such information could lead to transformative enhancements in autonomous vehicles' perception, prediction, and planning capabilities. To bridge this gap, in collaboration with the self-driving company May Mobility, we present MARS dataset which unifies scenarios that enable MultiAgent, multitraveRSal, and multimodal autonomous vehicle research. More specifically, MARS is collected with a fleet of autonomous vehicles driving within a certain geographical area. Each vehicle has its own route and different vehicles may appear at nearby locations. Each vehicle is equipped with a LiDAR and surround-view RGB cameras. We curate two subsets in MARS: one facilitates collaborative driving with multiple vehicles simultaneously present at the same location, and the other enables memory retrospection through asynchronous traversals of the same location by multiple vehicles. We conduct experiments in place recognition and neural reconstruction. More importantly, MARS introduces new research opportunities and challenges such as multitraversal 3D reconstruction, multiagent perception, and unsupervised object discovery. Our data and codes can be found at https://ai4ce.github.io/MARS/.}
+  title={Towards dynamic and small objects refinement for unsupervised domain adaptative nighttime semantic segmentation},
+  author={Pan, Jingyi and Li, Sihang and Chen, Yucheng and Zhu, Jinjing and Wang, Lin},
+  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems},
+  year={2023},
+  code={https://github.com/Rorisis/DSRNSS_codes},
+  website ={https://rorisis.github.io/DSRNSS/},
+  abstract={Nighttime semantic segmentation is essential for various applications, \eg, autonomous driving, which often faces challenges due to poor illumination and the lack of well-annotated datasets. Unsupervised domain adaptation (UDA) has shown potential for addressing the challenges and achieved remarkable results for nighttime semantic segmentation. However, existing methods still face limitations in 1) their reliance on style transfer or relighting models, which struggle to generalize to complex nighttime environments, and 2) their ignorance of dynamic and small objects like vehicles and traffic signs, which are difficult to be directly learned from other domains. This paper proposes a novel UDA method that refines both label and feature levels for dynamic and small objects for nighttime semantic segmentation. First, we propose a dynamic and small object refinement module to complement the knowledge of dynamic and small objects that are normally context-inconsistent due to poor illumination. Then, we design a feature prototype alignment module to reduce the domain gap by deploying contrastive learning between features and prototypes of the same class from different domains, while re-weighting the categories of dynamic and small objects. Extensive experiments on four benchmark datasets demonstrate that our method outperforms prior arts by a large margin for nighttime segmentation. Our codes will be released soon.}
 }
 
 @article{su2023collaborative,
