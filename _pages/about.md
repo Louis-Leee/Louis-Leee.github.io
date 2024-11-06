@@ -30,9 +30,8 @@ My research lies in the intersection of ***robotics and spatial intelligence***,
 :speaker: <b><font color="firebrick">I am looking for UG/MS students to work on cutting-edge research projects with me and my collaborators at NYU/NVIDIA/USC/Tsinghua. Please send me an email if you are interested! </font></b>
 
 <ul>
-  <li><b><font color="firebrick">Neural Representations for Dynamic Scenes (NeRF/3DGS) </font></b></li>
-  <li><b><font color="firebrick">Vision-Language Models for Spatial Robotics </font></b></li>
-  <li><b><font color="firebrick">Embodied and Cognitive AI for Robotics </font></b></li>
-  <li><b><font color="firebrick">Generative Models for Robotic Perception and Planning </font></b></li>
-  <li><b><font color="firebrick">Dataset Curation and Autolabeling for Spatial Robotics </font></b></li>
+  <li><b><font color="firebrick">Efficient Visual Localization for Spatial Robotics </font></b></li>
+  <li><b><font color="firebrick">Neural Representations for Large-scale Scenes </font></b></li>
+  <li><b><font color="firebrick">Imitation Learning for Robot Manipulation </font></b></li>
+  <li><b><font color="firebrick">Foundation Models for Robotic Perception and Planning </font></b></li>
 </ul>
