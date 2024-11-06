@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a second-year PhD student at <a href='https://ai4ce.github.io'>NYU AI4CE Lab</a> led by <a href='https://scholar.google.com/citations?user=YeG8ZM0AAAAJ&hl=en'>Chen Feng</a>. 
+I am a second-year PhD student at <a href='https://ai4ce.github.io'>NYU AI4CE Lab</a> led by <a href='https://scholar.google.com/citations?user=YeG8ZM0AAAAJ&hl=en'>Chen Feng</a>. Before my Ph.D journey, I worked as a research assistant at Hong Kong University of Science and Technology (HKUST) in 2023 and I received B.E. degree at Tongji Univerisity (TJU) advised by <a href='https://scholar.google.com/citations?user=zmbMZ4kAAAAJ&hl=en'>Changhong Fu</a> in Jul. 2022.
 
 <!-- I am also an NVIDIA Graduate Fellow at the <a href='https://nvr-avg.github.io/'>Autonmous Vehicle Research Group</a>, working closely with <a href='https://scholar.google.com/citations?user=RhOpyXcAAAAJ&hl=en'>Marco Pavone</a>, <a href='https://scholar.google.com/citations?user=Oyx-_UIAAAAJ&hl=en'>Jose M. Alvarez</a>, and <a href='https://scholar.google.com/citations?hl=en&user=CUlqK5EAAAAJ'>Sanja Fidler</a>. Before that, I had the opportunity to work as an intern at NVIDIA AI Research advised by <a href='https://scholar.google.com/citations?user=bEcLezcAAAAJ&hl=en'>Anima Anandkumar</a> in 2022, and a research assistant at Shanghai Jiao Tong University (SJTU) advised by <a href='https://scholar.google.com/citations?user=W_Q33RMAAAAJ&hl=en'>Siheng Chen</a> in 2021.   -->
 
