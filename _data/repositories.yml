@@ -1,10 +1,9 @@
 github_users:
-  - RoboticsYimingLi
+  - Louis-Leee
 
 github_repos:
-  - NVlabs/VoxFormer
-  - AI4CE/DiscoNet
+  - vision4robotics/TRTrack
+  - vision4robotics/SGDViT
   - AI4CE/SSCBench
-  - AI4CE/V2X-Sim
-  - AI4CE/FLAT
-  - AI4CE/DeepMapping2
+  - vision4robotics/ADTrack
+
