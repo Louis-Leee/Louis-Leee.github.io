@@ -41,6 +41,23 @@
   abstract={Nighttime semantic segmentation is essential for various applications, \eg, autonomous driving, which often faces challenges due to poor illumination and the lack of well-annotated datasets. Unsupervised domain adaptation (UDA) has shown potential for addressing the challenges and achieved remarkable results for nighttime semantic segmentation. However, existing methods still face limitations in 1) their reliance on style transfer or relighting models, which struggle to generalize to complex nighttime environments, and 2) their ignorance of dynamic and small objects like vehicles and traffic signs, which are difficult to be directly learned from other domains. This paper proposes a novel UDA method that refines both label and feature levels for dynamic and small objects for nighttime semantic segmentation. First, we propose a dynamic and small object refinement module to complement the knowledge of dynamic and small objects that are normally context-inconsistent due to poor illumination. Then, we design a feature prototype alignment module to reduce the domain gap by deploying contrastive learning between features and prototypes of the same class from different domains, while re-weighting the categories of dynamic and small objects. Extensive experiments on four benchmark datasets demonstrate that our method outperforms prior arts by a large margin for nighttime segmentation. Our codes will be released soon.}
 }
 
+@article{li2023boosting,
+  selected={true},  
+  abbr={RA-L},
+  preview={trtrack.png},
+  title={Boosting UAV Tracking with Voxel-based Trajectory-Aware Pre-Training},
+  author={Li, Sihang and Fu, Changhong and Lu, Kunhan and Zuo, Haobo and Li, Yiming and Feng, Chen},
+  journal={IEEE Robotics and Automation Letters},
+  volume={8},
+  number={2},
+  pages={1133--1140},
+  year={2023},
+  publisher={IEEE},
+  code={https://github.com/vision4robotics/TRTrack},
+  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10015867},
+  abstract={Siamese network-based object tracking has remarkably promoted the automatic capability for highlymaneuvered unmanned aerial vehicles (UAVs). However, the leading-edge tracking framework often depends on template matching, making it trapped when facing multiple views of object in consecutive frames. Moreover, the general imagelevel pretrained backbone can overfit to holistic representations, causing the misalignment to learn object-level properties in UAV tracking. To tackle these issues, this work presents TRTrack, a comprehensive framework to fully exploit the stereoscopic representation for UAV tracking. Specifically, a novel pretraining paradigm method is proposed. Through trajectoryaware reconstruction training, the capability of the backbone to extract stereoscopic structure feature is strengthened without any parameter increment. Accordingly, an innovative hierarchical self-attention Transformer is proposed to capture the local detail information and global structure knowledge. For optimizing the correlation map, we proposed a novel spatial correlation refinement (SCR) module, which promotes the capability of modeling the long-range spatial dependencies. Comprehensive experiments on three UAV challenging benchmarks demonstrate that the proposed TRTrack achieves superior UAV tracking performance in both precision and efficiency. Quantitative tests in real-world settings fully prove the effectiveness of our work.}
+}
+
 @article{su2023collaborative,
   abbr={Preprint},
   preview={comot.png},
