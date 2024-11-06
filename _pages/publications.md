@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: My works have been published in top-tier computer vision, machine learning, and robotics conferences and journals such as CVPR, ICCV, NeurIPS, RSS, CoRL, ICRA, IROS, and RA-L.
+description: My works have been published in top-tier computer vision, machine learning, and robotics conferences and journals such as NeurIPS, ICRA, IROS, and RA-L.
 nav: true
 nav_order: 1
 ---
