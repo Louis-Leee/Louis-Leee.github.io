@@ -1,6 +1,20 @@
 ---
 ---
-@article{li2024unleashing,
+@article{li2025garf,
+  selected={true},
+  abbr={ICCV},
+  preview={rap.png},
+  title={GARF: Learning Generalizable 3D Reassembly for Real-World Fractures},
+  author={Li, Sihang and Zeyu, Jiang and Grace, Chen and Chenyang, Xu and Tan, Siqi and Xue, Wang and Irving, Fang and Kristof, Zyskowski2 and Shannon, P. McPherron3 and Radu, Iovita and Feng, Chen and Zhang, Jing},
+  journal={International Conference on Computer Vision},
+  year={2025},
+  pdf={https://arxiv.org/abs/2504.05400},
+  website ={https://ai4ce.github.io/GARF/},
+  arxiv={2504.05400},
+  abstract={3D reassembly is a challenging spatial intelligence task with broad applications across scientific domains. While large-scale synthetic datasets have fueled promising learning-based approaches, their generalizability to different domains is limited. Critically, it remains uncertain whether models trained on synthetic datasets can generalize to real-world fractures where breakage patterns are more complex. To bridge this gap, we propose GARF, a generalizable 3D reassembly framework for real-world fractures. GARF leverages fracture-aware pretraining to learn fracture features from individual fragments, with flow matching enabling precise 6-DoF alignments. At inference time, we introduce one-step preassembly, improving robustness to unseen objects and varying numbers of fractures. In collaboration with archaeologists, paleoanthropologists, and ornithologists, we curate Fractura, a diverse dataset for vision and learning communities, featuring real-world fracture types across ceramics, bones, eggshells, and lithics. Comprehensive experiments have shown our approach consistently outperforms state-of-the-art methods on both synthetic and real-world datasets, achieving 82.87\% lower rotation error and 25.15\% higher part accuracy. This sheds light on training on synthetic data to advance real-world 3D puzzle solving, demonstrating its strong generalization across unseen object shapes and diverse fracture types.}
+}
+
+@article{li2025adversarial,
   selected={true},
   abbr={ICCV},
   preview={rap.png},
@@ -13,6 +27,8 @@
   arxiv={2412.00138},
   abstract={Visual localization, which estimates a camera's pose within a known scene, is a long-standing challenge in vision and robotics. Recent end-to-end methods that directly regress camera poses from query images have gained attention for fast inference. However, existing methods often struggle to generalize to unseen views. In this work, we aim to unleash the power of data synthesis to promote the generalizability of pose regression. Specifically, we lift real 2D images into 3D Gaussian Splats with varying appearance and deblurring abilities, which are then used as a data engine to synthesize more posed images. To fully leverage the synthetic data, we build a two-branch joint training pipeline, with an adversarial discriminator to bridge the syn-to-real gap. Experiments on established benchmarks show that our method outperforms state-of-the-art end-to-end approaches, reducing translation and rotation errors by 50% and 21.6% on indoor datasets, and 35.56% and 38.7% on outdoor datasets. We also validate the effectiveness of our method in dynamic driving scenarios under varying weather conditions. Notably, as data synthesis scales up, our method exhibits a growing ability to interpolate and extrapolate training data for localizing unseen views.}
 }
+
+
 
 @InProceedings{zhang2024multiview,
   selected={true},   
