@@ -29,11 +29,11 @@ My research lies in the intersection of ***robotics and spatial intelligence***,
 
 <br>
 <div style="text-align: center; margin-top: 10px; margin-bottom: 20px;">
-  <img src="/assets/img/NYU.png" alt="NYU" style="height: 75px; margin: 0 15px; vertical-align: middle;">
-  <img src="/assets/img/Amazon_logo.png" alt="Amazon" style="height: 75px; margin: 0 15px; vertical-align: middle;">
-  <img src="/assets/img/Amazon_Robotics_logo.png" alt="Amazon" style="height: 75px; margin: 0 15px; vertical-align: middle;">
-  <img src="/assets/img/hkust.png" alt="HKUST" style="height: 75px; margin: 0 15px; vertical-align: middle;">
-  <img src="/assets/img/tongji.png" alt="Tongji" style="height: 75px; margin: 0 15px; vertical-align: middle;">
+  <img src="/assets/img/NYU.png" alt="NYU" style="height: 50px; margin: 0 15px; vertical-align: middle;">
+  <img src="/assets/img/Amazon_logo.png" alt="Amazon" style="height: 50px; margin: 0 15px; vertical-align: middle;">
+  <img src="/assets/img/Amazon_Robotics_logo.png" alt="Amazon" style="height: 50px; margin: 0 15px; vertical-align: middle;">
+  <img src="/assets/img/hkust.png" alt="HKUST" style="height: 50px; margin: 0 15px; vertical-align: middle;">
+  <img src="/assets/img/tongji.png" alt="Tongji" style="height: 50px; margin: 0 15px; vertical-align: middle;">
 </div>
 <br>
 
