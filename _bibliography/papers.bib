@@ -6,13 +6,27 @@
   abbr={Arxiv},
   preview={egopush.gif},
   title={EgoPush: Learning End-to-End Egocentric Multi-Object Rearrangement for Mobile Robots},
-  author={An, Boyuan and Wang, Zhexiong and Wang, Yipeng and Li, Jiaqi and Li, Sihang* and Zhang, Jing* and Feng, Chen*},
-  year={2025},
+  author={An, Boyuan and Wang, Zhexiong and Wang, Yipeng and Li, Jiaqi and Li*, Sihang and Zhang*, Jing and Feng*, Chen},
+  year={2026},
   code={https://github.com/ai4ce/EgoPush},
   pdf={https://arxiv.org/abs/2504.05400},
   website ={https://ai4ce.github.io/EgoPush/},
   arxiv={2602.18071},
   abstract={Humans can rearrange objects in cluttered environments using egocentric perception, navigating occlusions without global coordinates. Inspired by this capability, we study long-horizon multi-object non-prehensile rearrangement for mobile robots using a single egocentric camera. We introduce EgoPush, a policy learning framework that enables egocentric, perception-driven rearrangement without relying on explicit global state estimation that often fails in dynamic scenes. EgoPush designs an object-centric latent space to encode relative spatial relations among objects, rather than absolute poses. This design enables a privileged reinforcement-learning (RL) teacher to jointly learn latent states and mobile actions from sparse keypoints, which is then distilled into a purely visual student policy. To reduce the supervision gap between the omniscient teacher and the partially observed student, we restrict the teacher’s observations to visually accessible cues. This induces active perception behaviors that are recoverable from the student’s viewpoint. To address long-horizon credit assignment, we decompose rearrangement into stage-level subproblems using temporally decayed, stage-local completion rewards. Extensive simulation experiments demonstrate that EgoPush significantly outperforms end-to-end RL baselines in success rate, with ablation studies validating each design choice. We further demonstrate zero-shot sim-to-real transfer on a mobile platform in the real world.}
+}
+
+@article{Jiang2026crag,
+  selected={true},
+  abbr={Arxiv},
+  preview={crag.png},
+  title={CRAG: Can 3D Generative Models Help 3D Assembly?},
+  author={Jiang*, Zeyu and Li*, Sihang and Tan, Siqi and Xu, Chenyang and Zhang, Juexiao and Galway-Witham, Julia and Wang, Xue and A. Williams, Scott and Iovita, Radu and Feng, Chen and Zhang, Jing},
+  year={2026},
+  code={https://github.com/ai4ce/CRAG},
+  pdf={https://arxiv.org/abs/2602.22629},
+  website ={https://ai4ce.github.io/CRAG/},
+  arxiv={2602.22629},
+  abstract={Most existing 3D assembly methods treat the problem as pure pose estimation, rearranging observed parts via rigid transformations. In contrast, human assembly naturally couples structural reasoning with holistic shape inference. Inspired by this intuition, we reformulate 3D assembly as a joint problem of assembly and generation. We show that these two processes are mutually reinforcing: assembly provides part-level structural priors for generation, while generation injects holistic shape context that resolves ambiguities in assembly. Unlike prior methods that cannot synthesize missing geometry, we propose CRAG, which simultaneously generates plausible complete shapes and predicts poses for input parts. Extensive experiments demonstrate state-of-the-art performance across in-the-wild objects with diverse geometries, varying part counts, and missing pieces. Our code and models will be released.}
 }
 
 @article{li2025garf,
