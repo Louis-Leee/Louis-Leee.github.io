@@ -25,7 +25,10 @@ I am a third-year PhD student at <a href='https://ai4ce.github.io'>NYU AI4CE Lab
 
 <!-- :pray: <b><font color="purple">I will graduate in Fall 2024 and am actively seeking a postdoctoral or industrial position, starting in Spring 2025. </font></b> -->
 
-My research lies in the intersection of ***robotics and spatial intelligence***, whose goal is to drastically improve robotic reliability, intelligence and security **in complex scenarios**. These works are motivated by the urgent need of **3D representation learning for robotics with minimal supervision** and **spatial reasoning** with **multiple sensors**, such as inferring a complete model of a scene with **image/language/point cloud information**. More specifically, my research interests include: (1) computer vision and robotics: collaborative perception, 3D scene understanding, video understanding; (2) machine learning: adversarial learning, representation Learning, and multimodal learning; (3) applications: self-driving, robotics, construction automation, and human-robot interaction. 
+
+My research lies at the intersection of robotics and spatial intelligence, aiming to build reliable and safe ***physical AI agents*** that can operate in complex human environments. I focus on mobile manipulation and loco-manipulation, dexterous hand manipulation, and multimodal 3D scene understanding and generation, integrating vision/language/geometry to support spatial reasoning under minimal supervision.
+
+
 
 <br>
 <div style="text-align: center; margin-top: 10px; margin-bottom: 20px;">
@@ -40,9 +43,9 @@ My research lies in the intersection of ***robotics and spatial intelligence***,
 :speaker: <b><font color="firebrick">I am looking for UG/MS students to work on cutting-edge research projects with me and my collaborators at NYU/NVIDIA/Amazon/Tsinghua/MIT. Please send me an email if you are interested! </font></b>
 
 <ul>
-  <li><b><font color="firebrick">Efficient Visual Localization for Spatial Robotics </font></b></li>
+  <li><b><font color="firebrick">LocoManipulation/Mobile Manipulation </font></b></li>
   <li><b><font color="firebrick">Flow Matching/Diffusion Model </font></b></li>
-  <li><b><font color="firebrick">3D/4D Generation </font></b></li>
   <li><b><font color="firebrick">Imitation Learning, Dexterous Manipulation </font></b></li>
   <li><b><font color="firebrick">Foundation Models for Robotic Perception and Planning </font></b></li>
+  <li><b><font color="firebrick">4D Generation World Model </font></b></li>
 </ul>
