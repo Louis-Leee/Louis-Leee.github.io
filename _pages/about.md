@@ -26,7 +26,7 @@ I am a third-year PhD student at <a href='https://ai4ce.github.io'>NYU AI4CE Lab
 <!-- :pray: <b><font color="purple">I will graduate in Fall 2024 and am actively seeking a postdoctoral or industrial position, starting in Spring 2025. </font></b> -->
 
 
-My research lies at the intersection of robotics and spatial intelligence, aiming to build reliable and safe ***physical AI agents*** that can operate in complex human environments. I focus on mobile manipulation and loco-manipulation, dexterous hand manipulation, and multimodal 3D scene understanding and generation, integrating vision/language/geometry to support spatial reasoning under minimal supervision.
+My research lies at the intersection of robotics and spatial intelligence, aiming to build reliable and safe ***physical AI agents*** that can operate in complex human environments. I focus on humanoid loco-manipulation, mobile manipulation, and dexterous manipulation, together with multi-sensory learning and multimodal 3D scene understanding, integrating vision/language/geometry/touch to support spatial reasoning and robust physical interaction under minimal supervision.
 
 
 
@@ -43,9 +43,8 @@ My research lies at the intersection of robotics and spatial intelligence, aimin
 :speaker: <b><font color="firebrick">I am looking for UG/MS students to work on cutting-edge research projects with me and my collaborators at NYU/NVIDIA/Amazon/Tsinghua/MIT. Please send me an email if you are interested! </font></b>
 
 <ul>
-  <li><b><font color="firebrick">LocoManipulation/Mobile Manipulation </font></b></li>
-  <li><b><font color="firebrick">Flow Matching/Diffusion Model </font></b></li>
-  <li><b><font color="firebrick">Imitation Learning, Dexterous Manipulation </font></b></li>
-  <li><b><font color="firebrick">Foundation Models for Robotic Perception and Planning </font></b></li>
-  <li><b><font color="firebrick">4D Generation World Model </font></b></li>
+  <li><b><font color="firebrick">Humanoid Loco-manipulation </font></b></li>
+  <li><b><font color="firebrick">Dexterous Manipulation </font></b></li>
+  <li><b><font color="firebrick">Multi-sensory Learning for Robotics </font></b></li>
+  <li><b><font color="firebrick">Foundation Models for Robotics </font></b></li>
 </ul>
