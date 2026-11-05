@@ -1,6 +1,32 @@
 ---
 ---
 
+@article{li2026flore,
+  selected={true},
+  abbr={Arxiv},
+  preview={flore.jpg},
+  title={FLoRe: Learning Force-Reactive Humanoid Loco-Manipulation},
+  author={Li, Sihang and Guo, Xiaofeng and Cao, Jinkun and Cheng, Charlie and Yang, Ruihan and Feng, Chen and Shi, Guanya and Qi, Haozhi},
+  year={2026},
+  code={https://github.com/amazon-far/FLoRe},
+  pdf={https://arxiv.org/pdf/2610.35862},
+  website ={https://louis-leee.github.io/FLoRe/},
+  arxiv={2610.35862},
+  abstract={Many everyday tasks require controlling contact force as well as motion. On a humanoid, this force must often be coordinated across both hands and the whole body, and cannot be specified by kinematic trajectories alone. Learning such tasks by imitation therefore needs demonstrations that record contact force, and a whole-body controller that can deliver it. We present FLoRe, a framework for learning force-reactive humanoid loco-manipulation. Its robot-free force-annotated data collection system records the contact wrench applied through two UMI-style handheld grippers, together with hand, torso, and foot motion. A force-reactive diffusion policy takes vision, proprioception, and measured wrenches as input, then predicts actions and per-hand force commands. A hybrid compliance whole-body controller with force tracking executes these commands while maintaining balance: an integral of the force error measured by real force/torque (F/T) sensors lets each hand track force accurately along the commanded direction and comply along the others. In simulation, the controller tracks per-hand force commands of varied magnitude and direction, with little loss in whole-body motion accuracy. Across three contact-rich tasks on the robot, the force-reactive policy succeeds in 80\% of rollouts, compared with 26.7\% for a position-only policy trained on the same demonstrations and executed by the same controller.}
+}
+
+@article{li2026somo,
+  selected={true},
+  abbr={ECCV},
+  preview={somo.png},
+  title={SOMO: Scalable Cross-embodiment Dexterous Grasping via Morphology-Prior Diffusion},
+  author={Li, Sihang and Zhou, Zheming and Ghasemalizadeh, Omid and Carlone, Luca and Sun, Min and Feng, Chen and Kuo, Cheng-Hao},
+  journal={European Conference on Computer Vision},
+  year={2026},
+  pdf={somo.pdf},
+  abstract={This paper presents SOMO, a scalable framework for cross-embodiment grasp synthesis that transfers to novel robot hands using only their hand description (i.e., a Unified Robot Description Format (URDF) file), without requiring any hand–object interaction annotations. Unlike prior approaches that rely on hand-specific models or annotated grasp data for each embodiment, SOMO introduces a shared Morphology-Prior Diffusion model applicable across heterogeneous hands through three key designs. First, grasping is formulated as a 3D assembly problem by predicting per-link SE(3) poses, enabling geometry-driven generation independent of hand-specific kinematics, with feasibility enforced through a post joint optimization stage. Second, a classifier-free training strategy learns a morphology prior from physically valid hand configurations generated through forward-kinematic exploration without object–grasp annotations, enabling grasp synthesis for unseen robot hands given only their URDF files. Third, a 3D shape-aware VAE encodes link and object geometry into a shared embedding, enabling consistent reasoning about hand–object complementarity across embodiments. Experiments show that SOMO achieves state-of-the-art grasp synthesis across six robot hands and demonstrates strong annotation-free generalization to previously unseen hands.}
+}
+
 @article{an2026egopush,
   selected={true},
   abbr={Arxiv},
